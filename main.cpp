@@ -24,6 +24,8 @@ int main()
     canvas.addShape(make_shared<Rectangle>(Point(0, CANVAS_MAX_Y), Point(CANVAS_MAX_X, 0)));
 
     canvas.draw();
+
+    // Test commit
     
     cout << "Paint needed: " << fixed << setprecision(1) << canvas.getPaintNeeded() << endl;
     
